@@ -1,5 +1,5 @@
 #include <iostream>
-#include "5_Q.h"
+#include "hd.h"
 
 namespace BestComImpl{
     void SimpleFunc(void){
