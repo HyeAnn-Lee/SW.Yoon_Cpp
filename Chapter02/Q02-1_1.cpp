@@ -15,7 +15,6 @@ int main(void){
 
     PlusByRef(num);
     cout << "After +1: " << num << endl;
-
     RevByRef(num);
     cout << "Even after changing sign: " << num << endl;
 
