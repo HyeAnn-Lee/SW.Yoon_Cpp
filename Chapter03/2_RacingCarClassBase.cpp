@@ -12,7 +12,7 @@ namespace CAR_CONST{
     };
 }
 
-struct Car{
+class Car{
     private:
         char gamerID[CAR_CONST::ID_LEN];
         int fuelGauge;
