@@ -37,7 +37,7 @@ class FruitBuyer{
             numOfApples += seller.SaleApples(money);
             myMoney -= money;
         }
-        void ShowBuyResult(){
+        void ShowBuyResult() const{
             cout << "Balance: " << myMoney << endl;
             cout << "The number of apples: " << numOfApples << endl << endl;
         }
