@@ -18,7 +18,7 @@ class FruitSeller{
             myMoney += money;
             return num;
         }
-        void ShowSalesResult(){
+        void ShowSalesResult() const{
             cout << "Apple left: " << numOfApples << endl;
             cout << "Margin: " << myMoney << endl << endl;
         }
