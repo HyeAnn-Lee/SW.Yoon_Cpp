@@ -23,7 +23,7 @@ class Person{
             age = myage;
         }
         void ShowPersonInfo() const{
-            cout << "Name: " << name << endl;
+            cout << "Name: " << name << ", ";
             cout << "Age: " << age << endl;
         }
         ~Person(){
