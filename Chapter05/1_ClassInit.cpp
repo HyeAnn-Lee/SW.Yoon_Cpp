@@ -7,7 +7,7 @@ class SoSimple{
     public:
         SoSimple(int n1, int n2)
             : num1(n1), num2(n2) {}
-        SoSimple(SoSimple& copy)
+        SoSimple(const SoSimple& copy)
             : num1(copy.num1), num2(copy.num2) {
             cout << "Called SoSimple(SoSimple& copy)\n"; 
         }
