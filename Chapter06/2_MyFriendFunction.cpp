@@ -23,7 +23,7 @@ class Point{
         Point(const int& xpos, const int& ypos) : x(xpos), y(ypos){}
         friend Point PointOP::PointAdd(const Point&, const Point&);
         friend Point PointOP::PointSub(const Point&, const Point&);
-        friend void ShowPointPos(const Point&);
+        friend void ShowPointPos(const Point&);     // this line includes a declaration of function ShowPointPos.
 };
 
 Point PointOP::PointAdd(const Point& pnt1, const Point& pnt2){
