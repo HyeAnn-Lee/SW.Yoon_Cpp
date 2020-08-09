@@ -2,12 +2,12 @@
 #include <cstring>
 using namespace std;
 
-class Girl;
+class Girl;     // can omit declaration ...
 
 class Boy{
     private:
         int height;
-        friend class Girl;
+        friend class Girl;      // ... because of this line
     public:
         Boy(int len) : height(len){}
         void ShowYourFriendInfo(Girl& frn);
