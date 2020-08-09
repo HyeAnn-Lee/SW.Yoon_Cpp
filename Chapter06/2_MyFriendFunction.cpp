@@ -1,8 +1,7 @@
 #include <iostream>
-#include <cstring>
 using namespace std;
 
-class Point;        // should be declared to compile line 12, 13
+class Point;        // should be declared to compile line 11, 12
 
 class PointOP{
     private:
