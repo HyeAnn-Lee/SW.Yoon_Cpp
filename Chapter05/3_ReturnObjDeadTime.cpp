@@ -17,7 +17,7 @@ class SoSimple{
 };
 
 SoSimple SimpleFuncObj(SoSimple ob){
-    cout << "Parm ADR: " << &ob << endl;
+    cout << "Parm ADR: " << &ob << endl;    // parameter address
     return ob;
 }
 
